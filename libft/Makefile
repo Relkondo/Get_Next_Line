@@ -6,7 +6,7 @@
 #    By: scoron <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/06 17:44:30 by scoron            #+#    #+#              #
-#    Updated: 2018/11/25 14:09:21 by scoron           ###   ########.fr        #
+#    Updated: 2018/11/26 15:03:44 by scoron           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -103,4 +103,4 @@ push : fclean
 	@git push origin master
 	git status
 
-.PHONY: all, clean, fclean, re
+.PHONY: all, clean, fclean, re, push
