@@ -6,7 +6,7 @@
 /*   By: scoron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/18 16:18:45 by scoron            #+#    #+#             */
-/*   Updated: 2018/12/05 20:56:34 by scoron           ###   ########.fr       */
+/*   Updated: 2018/12/05 21:04:46 by scoron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <fcntl.h>
 # include <stdio.h>
 
-# define BUFF_SIZE 42
+# define BUFF_SIZE 10
 
 typedef	struct		s_chain
 {
