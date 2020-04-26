@@ -43,6 +43,8 @@ static t_chain	*ft_delfd(t_chain *fd_chain)
 		fd_chain = fd_chain->previous;
 	else if (fd_chain->next)
 		fd_chain = fd_chain->next;
+    	else
+        	fd_chain = NULL;
 	tmp->previous = NULL;
 	tmp->next = NULL;
 	free(tmp);
